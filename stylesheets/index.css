@@ -1,0 +1,57 @@
+body {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr min-content;
+  background-image: url("../images/nature.jpg");
+  background-repeat: no-repeat;
+  background-color: #484e54;
+  height: 100%; 
+  width: 100%;
+}
+header h1 {
+  text-align: center;
+  grid-row: 1;
+  color: #2b2e2f;
+  font-size: 50px;
+  font-stretch: 100%;
+  font-weight: 400;
+  height: auto;
+  letter-spacing: 10px;
+  line-height: 45px;
+}
+
+nav {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 150%;
+  grid-row: 2;
+}
+
+ul {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:link {
+  color: #99a1b4;
+}
+
+li a:visited {
+  color: #374a09;
+}
+
+li a:hover {
+  color: #222f42;
+  border: 1px double #374a68;
+  padding-left: 4px;
+  padding-right: 2px;
+  border-radius: 8px;
+}
+
+footer {
+  grid-row: 3;
+}
+
