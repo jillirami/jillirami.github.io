@@ -1,11 +1,25 @@
 /* @import url('https://fonts.googleapis.com/css?family=Lato'); */
 body {
   position: relative;
+  /* background-color: #365577; */
 }
 
 * {
   margin: 0px;
   padding: 0px;
+}
+
+nav {
+  padding-top: 5px;
+  position: fixed;
+}
+
+ul, li {
+  display: inline-block;
+}
+
+#profile, section {
+  padding-top: 75px;
 }
 
 header, section { 
@@ -20,5 +34,6 @@ footer {
   font-size: 75%;
   text-align: center;
   color: #99a1b4;
-  padding: 3px;
+  margin: 0px;
+  /* padding: 3px; */
 }
