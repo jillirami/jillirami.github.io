@@ -1,7 +1,8 @@
-/* @import url('https://fonts.googleapis.com/css?family=Lato'); */
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700&display=swap');
+
 body {
   position: relative;
-  /* background-color: #365577; */
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 * {
