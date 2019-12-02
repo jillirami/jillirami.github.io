@@ -161,6 +161,7 @@ tr, th, td {
 }
 
 #contact_section {
+  margin-top: 5vh;
   min-height: 20vh;
   text-align: center;
   font-weight: bold;
