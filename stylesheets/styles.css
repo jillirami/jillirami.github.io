@@ -59,6 +59,10 @@ a {
   font-weight: bold;
 }
 
+.header_link:active {
+  text-decoration: underline;
+}
+
 #about {
   display: flex;
   justify-content: space-around;
@@ -84,12 +88,16 @@ img {
   text-align: center;
 }
 
-#projects_section {
+#project_section {
   padding-top: 20vh;
   min-height: 80vh;
   width: 85vw;
   margin-left: auto;
   margin-right: auto;
+
+}
+
+.major_section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -103,15 +111,15 @@ img {
   margin: 2vh;
 }
 
-.project:link {
+.link_style:link {
   color: #f5f5f5;
 }
 
-.project:visited {
+.link_style:visited {
   color: #99a1b4;
 }
 
-.project:hover {
+.link_style:hover {
   font-weight: bolder;
   text-shadow: 0 0 2px #99a1b4;
 }
@@ -128,6 +136,27 @@ img {
 .title, .description, .stack {
   padding: 1vh;
   text-align: center;
+}
+
+.challenges_section {
+  margin-top: 5vh;
+  text-align: center;  
+}
+
+#challenge_header {
+  font-size: 150%;
+  padding: 2vh;
+}
+
+table {
+  min-width: 60vw;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+tr, th, td {
+  border: 1px solid #535353;
+  padding: 5px;
 }
 
 #contact_section {
