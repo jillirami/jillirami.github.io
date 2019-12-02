@@ -88,7 +88,7 @@ img {
   text-align: center;
 }
 
-#project_section {
+#projects {
   padding-top: 20vh;
   min-height: 80vh;
   width: 85vw;
@@ -160,19 +160,19 @@ tr, th, td {
   padding: 5px;
 }
 
-#contact_section {
+#contact {
   margin-top: 5vh;
   min-height: 20vh;
   text-align: center;
   font-weight: bold;
 }
 
-#contact_section img {
+#contact img {
   max-height: 10vh;
   width: auto;
 }
 
-#contact_section > *, #contact_details > * {
+#contact > *, #contact_details > * {
   margin: 1vh;
 }
 
